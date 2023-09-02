@@ -1,6 +1,6 @@
 import mysql from 'mysql';
 
-var con = mysql.createConnection({
+var con = mysql.createPool({
     host: "lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     user: "m8jpye2byk2jqreb",
     password: "j62jq1sq3n7une7x",
